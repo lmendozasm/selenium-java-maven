@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browserCmd" value="webdriver.chrome.driver"/>
+  <parameter name="browserCmdFile" value="./drivers/chromedriver.exe"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.simplilearn.tests.TestSearch">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="startUpBrowser"/>
+          <include name="InitializePageObjects"/>
+          <include name="SearchBySearchBox" invocation-numbers="0"/>
+          <include name="SearchByManufacturer"/>
+        </methods>
+      </class> <!-- com.simplilearn.tests.TestSearch -->
+      <class name="com.simplilearn.tests.TestPlaceOrder">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="Purchase3Products"/>
+          <include name="startUpBrowser"/>
+          <include name="InitializePageObjects"/>
+        </methods>
+      </class> <!-- com.simplilearn.tests.TestPlaceOrder -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
