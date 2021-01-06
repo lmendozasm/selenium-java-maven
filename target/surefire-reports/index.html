@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Yayie\EclipseProjects\SeleniumClassJan2020\SimpliLearnSeleniumMavenProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.simplilearn.tests.TestCreateAccount" hash-for-method="CreateNewAccount(emailemail109@email.com, Mr, firstname, lastname, password1, address1, city1, Tennessee, 11111, Unit...)">CreateNewAccount(emailemail109@email.com, Mr, firstname, lastname, password1, address1, city1, Tennessee, 11111, Unit...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.simplilearn.tests.TestCreateAccount" hash-for-method="CreateNewAccount(emailemail110@email.com, Mrs, firstname, lastname, password2, address2, city2, Tennessee, 22222, Uni...)">CreateNewAccount(emailemail110@email.com, Mrs, firstname, lastname, password2, address2, city2, Tennessee, 22222, Uni...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.simplilearn.tests.TestCreateAccount" hash-for-method="CreateNewAccountWithPostCodeLessThan4Chars(email1email@email.com, Mrs, firstname, lastname, password1, address1, city1, Tennessee, 111, United ...)">CreateNewAccountWithPostCodeLessThan4Chars(email1email@email.com, Mrs, firstname, lastname, password1, address1, city1, Tennessee, 111, United ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.simplilearn.tests.TestCreateAccount" hash-for-method="CreateNewAccountWithPostCodeLessThan4Chars(email1email@email.com, Mrs, firstname, lastname, password2, address2, city2, Tennessee, 222, United ...)">CreateNewAccountWithPostCodeLessThan4Chars(email1email@email.com, Mrs, firstname, lastname, password2, address2, city2, Tennessee, 222, United ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.simplilearn.tests.TestCreateAccount" hash-for-method="CreateNewAccountWithoutCountrySpecified(email1email@email.com, Mrs, firstname, lastname, password1, address1, city1, Tennessee, 11111, 111-1...)">CreateNewAccountWithoutCountrySpecified(email1email@email.com, Mrs, firstname, lastname, password1, address1, city1, Tennessee, 11111, 111-1...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.simplilearn.tests.TestCreateAccount" hash-for-method="CreateNewAccountWithoutCountrySpecified(email1email@email.com, Mrs, firstname, lastname, password2, address2, city2, Tennessee, 22222, 222-2...)">CreateNewAccountWithoutCountrySpecified(email1email@email.com, Mrs, firstname, lastname, password2, address2, city2, Tennessee, 22222, 222-2...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.simplilearn.tests.TestLogOff" hash-for-method="LogOff(yayiesm@gmail.com, password)">LogOff(yayiesm@gmail.com, password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.simplilearn.tests.TestPlaceOrder" hash-for-method="Purchase3Products(Women, Blouse, Dresses, Printed Summer Dress, T-shirts, Faded Short Sleeve T-shirts, yayiesm@gmail.c...)">Purchase3Products(Women, Blouse, Dresses, Printed Summer Dress, T-shirts, Faded Short Sleeve T-shirts, yayiesm@gmail.c...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.simplilearn.tests.TestSearch" hash-for-method="SearchByManufacturer(7 items, Faded Short Sleeve T-shirts)">SearchByManufacturer(7 items, Faded Short Sleeve T-shirts)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.simplilearn.tests.TestSearch" hash-for-method="SearchBySearchBox(dress, 7 items)">SearchBySearchBox(dress, 7 items)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.simplilearn.tests.TestShareProduct" hash-for-method="ShareProductToFacebook(Women, Blouse, yayiesm@gmail.com, password)">ShareProductToFacebook(Women, Blouse, yayiesm@gmail.com, password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.simplilearn.tests.TestShareProduct" hash-for-method="ShareProductToGooglePlus(Women, Blouse, yayiesm@gmail.com, password)">ShareProductToGooglePlus(Women, Blouse, yayiesm@gmail.com, password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.simplilearn.tests.TestShareProduct" hash-for-method="ShareProductToPinterest(Women, Blouse, yayiesm@gmail.com, password)">ShareProductToPinterest(Women, Blouse, yayiesm@gmail.com, password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.simplilearn.tests.TestSignIn" hash-for-method="SignInWithInvalidCredentials(yayiesm@gmail.com, password1)">SignInWithInvalidCredentials(yayiesm@gmail.com, password1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.simplilearn.tests.TestSignIn" hash-for-method="SignInWithValidCredentials(yayiesm@gmail.com, password)">SignInWithValidCredentials(yayiesm@gmail.com, password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.simplilearn.tests.TestWriteReview" hash-for-method="WriteReviewOnOrder(yayiesm@gmail.com, password, HLUYRIZWZ, Faded Short Sleeve T-shirts - Color : Orange, Size : S, I re...)">WriteReviewOnOrder(yayiesm@gmail.com, password, HLUYRIZWZ, Faded Short Sleeve T-shirts - Color : Orange, Size : S, I re...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplilearn.tests.TestShareProduct</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShareProductToFacebook(Women, Blouse, yayiesm@gmail.com, password)">
+                  </a> <!-- ShareProductToFacebook(Women, Blouse, yayiesm@gmail.com, password) -->
+                  <span class="method-name">ShareProductToFacebook</span>
+                  <span class="parameters">(Women, Blouse, yayiesm@gmail.com, password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShareProductToGooglePlus(Women, Blouse, yayiesm@gmail.com, password)">
+                  </a> <!-- ShareProductToGooglePlus(Women, Blouse, yayiesm@gmail.com, password) -->
+                  <span class="method-name">ShareProductToGooglePlus</span>
+                  <span class="parameters">(Women, Blouse, yayiesm@gmail.com, password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShareProductToPinterest(Women, Blouse, yayiesm@gmail.com, password)">
+                  </a> <!-- ShareProductToPinterest(Women, Blouse, yayiesm@gmail.com, password) -->
+                  <span class="method-name">ShareProductToPinterest</span>
+                  <span class="parameters">(Women, Blouse, yayiesm@gmail.com, password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplilearn.tests.TestWriteReview</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="WriteReviewOnOrder(yayiesm@gmail.com, password, HLUYRIZWZ, Faded Short Sleeve T-shirts - Color : Orange, Size : S, I re...)">
+                  </a> <!-- WriteReviewOnOrder(yayiesm@gmail.com, password, HLUYRIZWZ, Faded Short Sleeve T-shirts - Color : Orange, Size : S, I re...) -->
+                  <span class="method-name">WriteReviewOnOrder</span>
+                  <span class="parameters">(yayiesm@gmail.com, password, HLUYRIZWZ, Faded Short Sleeve T-shirts - Color : Orange, Size : S, I really like this product. It is of good quality. It fits me well.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplilearn.tests.TestCreateAccount</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateNewAccount(emailemail109@email.com, Mr, firstname, lastname, password1, address1, city1, Tennessee, 11111, Unit...)">
+                  </a> <!-- CreateNewAccount(emailemail109@email.com, Mr, firstname, lastname, password1, address1, city1, Tennessee, 11111, Unit...) -->
+                  <span class="method-name">CreateNewAccount</span>
+                  <span class="parameters">(emailemail109@email.com, Mr, firstname, lastname, password1, address1, city1, Tennessee, 11111, United States, 111-111-1111)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateNewAccount(emailemail110@email.com, Mrs, firstname, lastname, password2, address2, city2, Tennessee, 22222, Uni...)">
+                  </a> <!-- CreateNewAccount(emailemail110@email.com, Mrs, firstname, lastname, password2, address2, city2, Tennessee, 22222, Uni...) -->
+                  <span class="method-name">CreateNewAccount</span>
+                  <span class="parameters">(emailemail110@email.com, Mrs, firstname, lastname, password2, address2, city2, Tennessee, 22222, United States, 222-222-2222)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateNewAccountWithPostCodeLessThan4Chars(email1email@email.com, Mrs, firstname, lastname, password1, address1, city1, Tennessee, 111, United ...)">
+                  </a> <!-- CreateNewAccountWithPostCodeLessThan4Chars(email1email@email.com, Mrs, firstname, lastname, password1, address1, city1, Tennessee, 111, United ...) -->
+                  <span class="method-name">CreateNewAccountWithPostCodeLessThan4Chars</span>
+                  <span class="parameters">(email1email@email.com, Mrs, firstname, lastname, password1, address1, city1, Tennessee, 111, United States, 111-111-1111)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateNewAccountWithPostCodeLessThan4Chars(email1email@email.com, Mrs, firstname, lastname, password2, address2, city2, Tennessee, 222, United ...)">
+                  </a> <!-- CreateNewAccountWithPostCodeLessThan4Chars(email1email@email.com, Mrs, firstname, lastname, password2, address2, city2, Tennessee, 222, United ...) -->
+                  <span class="method-name">CreateNewAccountWithPostCodeLessThan4Chars</span>
+                  <span class="parameters">(email1email@email.com, Mrs, firstname, lastname, password2, address2, city2, Tennessee, 222, United States, 222-222-2222)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateNewAccountWithoutCountrySpecified(email1email@email.com, Mrs, firstname, lastname, password1, address1, city1, Tennessee, 11111, 111-1...)">
+                  </a> <!-- CreateNewAccountWithoutCountrySpecified(email1email@email.com, Mrs, firstname, lastname, password1, address1, city1, Tennessee, 11111, 111-1...) -->
+                  <span class="method-name">CreateNewAccountWithoutCountrySpecified</span>
+                  <span class="parameters">(email1email@email.com, Mrs, firstname, lastname, password1, address1, city1, Tennessee, 11111, 111-111-1111)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateNewAccountWithoutCountrySpecified(email1email@email.com, Mrs, firstname, lastname, password2, address2, city2, Tennessee, 22222, 222-2...)">
+                  </a> <!-- CreateNewAccountWithoutCountrySpecified(email1email@email.com, Mrs, firstname, lastname, password2, address2, city2, Tennessee, 22222, 222-2...) -->
+                  <span class="method-name">CreateNewAccountWithoutCountrySpecified</span>
+                  <span class="parameters">(email1email@email.com, Mrs, firstname, lastname, password2, address2, city2, Tennessee, 22222, 222-222-2222)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplilearn.tests.TestSignIn</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignInWithInvalidCredentials(yayiesm@gmail.com, password1)">
+                  </a> <!-- SignInWithInvalidCredentials(yayiesm@gmail.com, password1) -->
+                  <span class="method-name">SignInWithInvalidCredentials</span>
+                  <span class="parameters">(yayiesm@gmail.com, password1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignInWithValidCredentials(yayiesm@gmail.com, password)">
+                  </a> <!-- SignInWithValidCredentials(yayiesm@gmail.com, password) -->
+                  <span class="method-name">SignInWithValidCredentials</span>
+                  <span class="parameters">(yayiesm@gmail.com, password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplilearn.tests.TestPlaceOrder</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Purchase3Products(Women, Blouse, Dresses, Printed Summer Dress, T-shirts, Faded Short Sleeve T-shirts, yayiesm@gmail.c...)">
+                  </a> <!-- Purchase3Products(Women, Blouse, Dresses, Printed Summer Dress, T-shirts, Faded Short Sleeve T-shirts, yayiesm@gmail.c...) -->
+                  <span class="method-name">Purchase3Products</span>
+                  <span class="parameters">(Women, Blouse, Dresses, Printed Summer Dress, T-shirts, Faded Short Sleeve T-shirts, yayiesm@gmail.com, password, Your delivery address, Bank-wire payment., Order confirmation)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplilearn.tests.TestLogOff</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LogOff(yayiesm@gmail.com, password)">
+                  </a> <!-- LogOff(yayiesm@gmail.com, password) -->
+                  <span class="method-name">LogOff</span>
+                  <span class="parameters">(yayiesm@gmail.com, password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplilearn.tests.TestSearch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchByManufacturer(7 items, Faded Short Sleeve T-shirts)">
+                  </a> <!-- SearchByManufacturer(7 items, Faded Short Sleeve T-shirts) -->
+                  <span class="method-name">SearchByManufacturer</span>
+                  <span class="parameters">(7 items, Faded Short Sleeve T-shirts)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchBySearchBox(dress, 7 items)">
+                  </a> <!-- SearchBySearchBox(dress, 7 items) -->
+                  <span class="method-name">SearchBySearchBox</span>
+                  <span class="parameters">(dress, 7 items)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Yayie\EclipseProjects\SeleniumClassJan2020\SimpliLearnSeleniumMavenProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;parameter name=&quot;browserCmd&quot; value=&quot;webdriver.chrome.driver&quot;/&gt;
+  &lt;parameter name=&quot;browserCmdFile&quot; value=&quot;./drivers/chromedriver.exe&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.simplilearn.tests.TestCreateAccount&quot;/&gt;
+      &lt;class name=&quot;com.simplilearn.tests.TestLogOff&quot;/&gt;
+      &lt;class name=&quot;com.simplilearn.tests.TestPlaceOrder&quot;/&gt;
+      &lt;class name=&quot;com.simplilearn.tests.TestSearch&quot;/&gt;
+      &lt;class name=&quot;com.simplilearn.tests.TestShareProduct&quot;/&gt;
+      &lt;class name=&quot;com.simplilearn.tests.TestSignIn&quot;/&gt;
+      &lt;class name=&quot;com.simplilearn.tests.TestWriteReview&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Purchase3Products')
+data.setCell(0, 2, 'com.simplilearn.tests.TestPlaceOrder')
+data.setCell(0, 3, 26017);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ShareProductToPinterest')
+data.setCell(1, 2, 'com.simplilearn.tests.TestShareProduct')
+data.setCell(1, 3, 11842);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'WriteReviewOnOrder')
+data.setCell(2, 2, 'com.simplilearn.tests.TestWriteReview')
+data.setCell(2, 3, 11653);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ShareProductToFacebook')
+data.setCell(3, 2, 'com.simplilearn.tests.TestShareProduct')
+data.setCell(3, 3, 10608);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ShareProductToGooglePlus')
+data.setCell(4, 2, 'com.simplilearn.tests.TestShareProduct')
+data.setCell(4, 3, 8816);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'CreateNewAccount')
+data.setCell(5, 2, 'com.simplilearn.tests.TestCreateAccount')
+data.setCell(5, 3, 7711);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'CreateNewAccount')
+data.setCell(6, 2, 'com.simplilearn.tests.TestCreateAccount')
+data.setCell(6, 3, 6155);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'LogOff')
+data.setCell(7, 2, 'com.simplilearn.tests.TestLogOff')
+data.setCell(7, 3, 4884);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'CreateNewAccountWithPostCodeLessThan4Chars')
+data.setCell(8, 2, 'com.simplilearn.tests.TestCreateAccount')
+data.setCell(8, 3, 4881);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'CreateNewAccountWithPostCodeLessThan4Chars')
+data.setCell(9, 2, 'com.simplilearn.tests.TestCreateAccount')
+data.setCell(9, 3, 4769);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'CreateNewAccountWithoutCountrySpecified')
+data.setCell(10, 2, 'com.simplilearn.tests.TestCreateAccount')
+data.setCell(10, 3, 4666);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'SignInWithValidCredentials')
+data.setCell(11, 2, 'com.simplilearn.tests.TestSignIn')
+data.setCell(11, 3, 4663);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'CreateNewAccountWithoutCountrySpecified')
+data.setCell(12, 2, 'com.simplilearn.tests.TestCreateAccount')
+data.setCell(12, 3, 4655);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'SignInWithInvalidCredentials')
+data.setCell(13, 2, 'com.simplilearn.tests.TestSignIn')
+data.setCell(13, 3, 3221);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'SearchByManufacturer')
+data.setCell(14, 2, 'com.simplilearn.tests.TestSearch')
+data.setCell(14, 3, 1556);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'SearchBySearchBox')
+data.setCell(15, 2, 'com.simplilearn.tests.TestSearch')
+data.setCell(15, 3, 1044);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">12 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.simplilearn.tests.TestShareProduct</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+                <span class="ignored-method-name">startUpBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.simplilearn.tests.TestWriteReview</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+                <span class="ignored-method-name">startUpBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.simplilearn.tests.TestSignIn</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+                <span class="ignored-method-name">startUpBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.simplilearn.tests.TestPlaceOrder</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+                <span class="ignored-method-name">startUpBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.simplilearn.tests.TestLogOff</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+                <span class="ignored-method-name">startUpBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.simplilearn.tests.TestSearch</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+                <span class="ignored-method-name">startUpBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.tests.TestCreateAccount</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">startUpBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">InitializePageObjects</span>
+                <span class="method-start">6813 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.tests.TestLogOff</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">InitializePageObjects</span>
+                <span class="method-start">6936 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.tests.TestPlaceOrder</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">InitializePageObjects</span>
+                <span class="method-start">6943 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.tests.TestSearch</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">InitializePageObjects</span>
+                <span class="method-start">6951 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.tests.TestShareProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">InitializePageObjects</span>
+                <span class="method-start">6955 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.tests.TestSignIn</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">InitializePageObjects</span>
+                <span class="method-start">6962 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.tests.TestWriteReview</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">InitializePageObjects</span>
+                <span class="method-start">6967 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.tests.TestCreateAccount</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">CreateNewAccount(emailemail109@email.com, Mr, firstname, lastname, password1, address1, city1, Tennessee, 11111, Unit...)</span>
+                <span class="method-start">8034 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logFailures([TestResult name=CreateNewAccount status=SUCCESS method=TestCreateAccount.CreateNewAccount(java.lang...)</span>
+                <span class="method-start">15748 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">CreateNewAccount(emailemail110@email.com, Mrs, firstname, lastname, password2, address2, city2, Tennessee, 22222, Uni...)</span>
+                <span class="method-start">15754 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logFailures([TestResult name=CreateNewAccount status=SUCCESS method=TestCreateAccount.CreateNewAccount(java.lang...)</span>
+                <span class="method-start">21909 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">CreateNewAccountWithPostCodeLessThan4Chars(email1email@email.com, Mrs, firstname, lastname, password1, address1, city1, Tennessee, 111, United ...)</span>
+                <span class="method-start">22042 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logFailures([TestResult name=CreateNewAccountWithPostCodeLessThan4Chars status=SUCCESS method=TestCreateAccount....)</span>
+                <span class="method-start">26923 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">CreateNewAccountWithPostCodeLessThan4Chars(email1email@email.com, Mrs, firstname, lastname, password2, address2, city2, Tennessee, 222, United ...)</span>
+                <span class="method-start">26924 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logFailures([TestResult name=CreateNewAccountWithPostCodeLessThan4Chars status=SUCCESS method=TestCreateAccount....)</span>
+                <span class="method-start">31694 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">CreateNewAccountWithoutCountrySpecified(email1email@email.com, Mrs, firstname, lastname, password1, address1, city1, Tennessee, 11111, 111-1...)</span>
+                <span class="method-start">31842 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logFailures([TestResult name=CreateNewAccountWithoutCountrySpecified status=SUCCESS method=TestCreateAccount.Cre...)</span>
+                <span class="method-start">36497 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">CreateNewAccountWithoutCountrySpecified(email1email@email.com, Mrs, firstname, lastname, password2, address2, city2, Tennessee, 22222, 222-2...)</span>
+                <span class="method-start">36498 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logFailures([TestResult name=CreateNewAccountWithoutCountrySpecified status=SUCCESS method=TestCreateAccount.Cre...)</span>
+                <span class="method-start">41165 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.tests.TestLogOff</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LogOff(yayiesm@gmail.com, password)</span>
+                <span class="method-start">41286 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logFailures([TestResult name=LogOff status=SUCCESS method=TestLogOff.LogOff(java.lang.String, java.lang.String)[...)</span>
+                <span class="method-start">46171 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">runAfterMethod</span>
+                <span class="method-start">46172 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.tests.TestPlaceOrder</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Purchase3Products(Women, Blouse, Dresses, Printed Summer Dress, T-shirts, Faded Short Sleeve T-shirts, yayiesm@gmail.c...)</span>
+                <span class="method-start">46651 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logFailures([TestResult name=Purchase3Products status=SUCCESS method=TestPlaceOrder.Purchase3Products(java.lang....)</span>
+                <span class="method-start">72668 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.tests.TestSearch</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">SearchByManufacturer(7 items, Faded Short Sleeve T-shirts)</span>
+                <span class="method-start">72764 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logFailures([TestResult name=SearchByManufacturer status=SUCCESS method=TestSearch.SearchByManufacturer(java.lan...)</span>
+                <span class="method-start">74321 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">runAfterMethod</span>
+                <span class="method-start">74322 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">SearchBySearchBox(dress, 7 items)</span>
+                <span class="method-start">74810 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logFailures([TestResult name=SearchBySearchBox status=SUCCESS method=TestSearch.SearchBySearchBox(java.lang.Stri...)</span>
+                <span class="method-start">75855 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">runAfterMethod</span>
+                <span class="method-start">75856 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.tests.TestShareProduct</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ShareProductToFacebook(Women, Blouse, yayiesm@gmail.com, password)</span>
+                <span class="method-start">76426 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logFailures([TestResult name=ShareProductToFacebook status=SUCCESS method=TestShareProduct.ShareProductToFaceboo...)</span>
+                <span class="method-start">87034 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ShareProductToGooglePlus(Women, Blouse, yayiesm@gmail.com, password)</span>
+                <span class="method-start">87096 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logFailures([TestResult name=ShareProductToGooglePlus status=SUCCESS method=TestShareProduct.ShareProductToGoogl...)</span>
+                <span class="method-start">95913 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ShareProductToPinterest(Women, Blouse, yayiesm@gmail.com, password)</span>
+                <span class="method-start">95977 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logFailures([TestResult name=ShareProductToPinterest status=SUCCESS method=TestShareProduct.ShareProductToPinter...)</span>
+                <span class="method-start">107819 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.tests.TestSignIn</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">SignInWithInvalidCredentials(yayiesm@gmail.com, password1)</span>
+                <span class="method-start">107876 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logFailures([TestResult name=SignInWithInvalidCredentials status=SUCCESS method=TestSignIn.SignInWithInvalidCred...)</span>
+                <span class="method-start">111097 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">SignInWithValidCredentials(yayiesm@gmail.com, password)</span>
+                <span class="method-start">111171 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logFailures([TestResult name=SignInWithValidCredentials status=SUCCESS method=TestSignIn.SignInWithValidCredenti...)</span>
+                <span class="method-start">115835 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.tests.TestWriteReview</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">WriteReviewOnOrder(yayiesm@gmail.com, password, HLUYRIZWZ, Faded Short Sleeve T-shirts - Color : Orange, Size : S, I re...)</span>
+                <span class="method-start">115882 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logFailures([TestResult name=WriteReviewOnOrder status=SUCCESS method=TestWriteReview.WriteReviewOnOrder(java.la...)</span>
+                <span class="method-start">127535 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.tests.TestCreateAccount</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">127612 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

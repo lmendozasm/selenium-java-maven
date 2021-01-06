@@ -1,0 +1,16 @@
+2020-02-09 20:04:11,976  INFO [main] TestCreateAccount:97 - CreateNewAccount test passed. 
+2020-02-09 20:04:18,136  INFO [main] TestCreateAccount:97 - CreateNewAccount test passed. 
+2020-02-09 20:04:23,149  INFO [main] TestCreateAccount:97 - CreateNewAccountWithPostCodeLessThan4Chars test passed. 
+2020-02-09 20:04:27,920  INFO [main] TestCreateAccount:97 - CreateNewAccountWithPostCodeLessThan4Chars test passed. 
+2020-02-09 20:04:32,724  INFO [main] TestCreateAccount:97 - CreateNewAccountWithoutCountrySpecified test passed. 
+2020-02-09 20:04:37,391  INFO [main] TestCreateAccount:97 - CreateNewAccountWithoutCountrySpecified test passed. 
+2020-02-09 20:04:42,397  INFO [main] TestCreateAccount:61 - LogOff test passed. 
+2020-02-09 20:05:08,894  INFO [main] TestCreateAccount:101 - Purchase3Products test passed. 
+2020-02-09 20:05:10,547  INFO [main] TestCreateAccount:69 - SearchByManufacturer test passed. 
+2020-02-09 20:05:12,081  INFO [main] TestCreateAccount:69 - SearchBySearchBox test passed. 
+2020-02-09 20:05:23,261  INFO [main] TestCreateAccount:103 - ShareProductToFacebook test passed. 
+2020-02-09 20:05:32,139  INFO [main] TestCreateAccount:103 - ShareProductToGooglePlus test passed. 
+2020-02-09 20:05:44,046  INFO [main] TestCreateAccount:103 - ShareProductToPinterest test passed. 
+2020-02-09 20:05:47,324  INFO [main] TestCreateAccount:80 - SignInWithInvalidCredentials test passed. 
+2020-02-09 20:05:52,061  INFO [main] TestCreateAccount:80 - SignInWithValidCredentials test passed. 
+2020-02-09 20:06:03,761  INFO [main] TestCreateAccount:72 - WriteReviewOnOrder test passed. 

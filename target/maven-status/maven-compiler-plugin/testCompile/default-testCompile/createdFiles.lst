@@ -1,0 +1,9 @@
+com\simplilearn\tests\TestSearch.class
+com\simplilearn\tests\TestPlaceOrder.class
+com\simplilearn\tests\TestShareProduct.class
+com\simplilearn\tests\BaseTest.class
+com\simplilearn\tests\TestLogOff.class
+com\simplilearn\tests\TestCreateAccount.class
+com\simplilearn\tests\TestShareProduct$1.class
+com\simplilearn\tests\TestSignIn.class
+com\simplilearn\tests\TestWriteReview.class

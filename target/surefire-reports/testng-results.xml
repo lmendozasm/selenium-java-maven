@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="12" total="28" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="120724" started-at="2020-02-09T20:04:03 EST" finished-at="2020-02-09T20:06:03 EST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="120724" started-at="2020-02-09T20:04:03 EST" finished-at="2020-02-09T20:06:03 EST">
+      <class name="com.simplilearn.tests.TestSearch">
+        <test-method status="PASS" signature="InitializePageObjects()[pri:0, instance:com.simplilearn.tests.TestSearch@6895a785]" name="InitializePageObjects" is-config="true" duration-ms="4" started-at="2020-02-09T20:04:03 EST" finished-at="2020-02-09T20:04:03 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializePageObjects -->
+        <test-method status="PASS" signature="SearchByManufacturer(java.lang.String, java.lang.String)[pri:0, instance:com.simplilearn.tests.TestSearch@6895a785]" name="SearchByManufacturer" duration-ms="1556" started-at="2020-02-09T20:05:08 EST" data-provider="readSearchByManufacturerData" finished-at="2020-02-09T20:05:10 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7 items]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Faded Short Sleeve T-shirts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchByManufacturer -->
+        <test-method status="PASS" signature="logFailures(org.testng.ITestResult)[pri:0, instance:com.simplilearn.tests.TestSearch@6895a785]" name="logFailures" is-config="true" duration-ms="1" started-at="2020-02-09T20:05:10 EST" finished-at="2020-02-09T20:05:10 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchByManufacturer status=SUCCESS method=TestSearch.SearchByManufacturer(java.lang.String, java.lang.String)[pri:0, instance:com.simplilearn.tests.TestSearch@6895a785] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logFailures -->
+        <test-method status="PASS" signature="runAfterMethod()[pri:0, instance:com.simplilearn.tests.TestSearch@6895a785]" name="runAfterMethod" is-config="true" duration-ms="422" started-at="2020-02-09T20:05:10 EST" finished-at="2020-02-09T20:05:10 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runAfterMethod -->
+        <test-method status="PASS" signature="SearchBySearchBox(java.lang.String, java.lang.String)[pri:0, instance:com.simplilearn.tests.TestSearch@6895a785]" name="SearchBySearchBox" duration-ms="1044" started-at="2020-02-09T20:05:11 EST" data-provider="readSearchTextData" finished-at="2020-02-09T20:05:12 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dress]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7 items]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchBySearchBox -->
+        <test-method status="PASS" signature="logFailures(org.testng.ITestResult)[pri:0, instance:com.simplilearn.tests.TestSearch@6895a785]" name="logFailures" is-config="true" duration-ms="0" started-at="2020-02-09T20:05:12 EST" finished-at="2020-02-09T20:05:12 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchBySearchBox status=SUCCESS method=TestSearch.SearchBySearchBox(java.lang.String, java.lang.String)[pri:0, instance:com.simplilearn.tests.TestSearch@6895a785] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logFailures -->
+        <test-method status="PASS" signature="runAfterMethod()[pri:0, instance:com.simplilearn.tests.TestSearch@6895a785]" name="runAfterMethod" is-config="true" duration-ms="493" started-at="2020-02-09T20:05:12 EST" finished-at="2020-02-09T20:05:12 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runAfterMethod -->
+      </class> <!-- com.simplilearn.tests.TestSearch -->
+      <class name="com.simplilearn.tests.TestPlaceOrder">
+        <test-method status="PASS" signature="InitializePageObjects()[pri:0, instance:com.simplilearn.tests.TestPlaceOrder@48503868]" name="InitializePageObjects" is-config="true" duration-ms="7" started-at="2020-02-09T20:04:03 EST" finished-at="2020-02-09T20:04:03 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializePageObjects -->
+        <test-method status="PASS" signature="Purchase3Products(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.simplilearn.tests.TestPlaceOrder@48503868]" name="Purchase3Products" duration-ms="26017" started-at="2020-02-09T20:04:42 EST" data-provider="readOrderData" finished-at="2020-02-09T20:05:08 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Women]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Blouse]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dresses]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Printed Summer Dress]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[T-shirts]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Faded Short Sleeve T-shirts]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[yayiesm@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Your delivery address]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Bank-wire payment.]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Order confirmation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Purchase3Products -->
+        <test-method status="PASS" signature="logFailures(org.testng.ITestResult)[pri:0, instance:com.simplilearn.tests.TestPlaceOrder@48503868]" name="logFailures" is-config="true" duration-ms="1" started-at="2020-02-09T20:05:08 EST" finished-at="2020-02-09T20:05:08 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Purchase3Products status=SUCCESS method=TestPlaceOrder.Purchase3Products(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.simplilearn.tests.TestPlaceOrder@48503868] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logFailures -->
+      </class> <!-- com.simplilearn.tests.TestPlaceOrder -->
+      <class name="com.simplilearn.tests.TestSignIn">
+        <test-method status="PASS" signature="InitializePageObjects()[pri:0, instance:com.simplilearn.tests.TestSignIn@56aac163]" name="InitializePageObjects" is-config="true" duration-ms="5" started-at="2020-02-09T20:04:03 EST" finished-at="2020-02-09T20:04:03 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializePageObjects -->
+        <test-method status="PASS" signature="SignInWithInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.simplilearn.tests.TestSignIn@56aac163]" name="SignInWithInvalidCredentials" duration-ms="3221" started-at="2020-02-09T20:05:44 EST" data-provider="readInvalidLoginData" finished-at="2020-02-09T20:05:47 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yayiesm@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignInWithInvalidCredentials -->
+        <test-method status="PASS" signature="logFailures(org.testng.ITestResult)[pri:0, instance:com.simplilearn.tests.TestSignIn@56aac163]" name="logFailures" is-config="true" duration-ms="1" started-at="2020-02-09T20:05:47 EST" finished-at="2020-02-09T20:05:47 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SignInWithInvalidCredentials status=SUCCESS method=TestSignIn.SignInWithInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.simplilearn.tests.TestSignIn@56aac163] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logFailures -->
+        <test-method status="PASS" signature="SignInWithValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.simplilearn.tests.TestSignIn@56aac163]" name="SignInWithValidCredentials" duration-ms="4663" started-at="2020-02-09T20:05:47 EST" data-provider="readValidLoginData" finished-at="2020-02-09T20:05:52 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yayiesm@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignInWithValidCredentials -->
+        <test-method status="PASS" signature="logFailures(org.testng.ITestResult)[pri:0, instance:com.simplilearn.tests.TestSignIn@56aac163]" name="logFailures" is-config="true" duration-ms="0" started-at="2020-02-09T20:05:52 EST" finished-at="2020-02-09T20:05:52 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SignInWithValidCredentials status=SUCCESS method=TestSignIn.SignInWithValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.simplilearn.tests.TestSignIn@56aac163] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logFailures -->
+      </class> <!-- com.simplilearn.tests.TestSignIn -->
+      <class name="com.simplilearn.tests.TestCreateAccount">
+        <test-method status="PASS" signature="startUpBrowser()[pri:0, instance:com.simplilearn.tests.TestCreateAccount@64729b1e]" name="startUpBrowser" is-config="true" duration-ms="6811" started-at="2020-02-09T20:03:56 EST" finished-at="2020-02-09T20:04:03 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUpBrowser -->
+        <test-method status="PASS" signature="InitializePageObjects()[pri:0, instance:com.simplilearn.tests.TestCreateAccount@64729b1e]" name="InitializePageObjects" is-config="true" duration-ms="123" started-at="2020-02-09T20:04:03 EST" finished-at="2020-02-09T20:04:03 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializePageObjects -->
+        <test-method status="PASS" signature="CreateNewAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.simplilearn.tests.TestCreateAccount@64729b1e]" name="CreateNewAccount" duration-ms="7711" started-at="2020-02-09T20:04:04 EST" data-provider="readValidAccountData" finished-at="2020-02-09T20:04:11 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emailemail109@email.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mr]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[firstname]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lastname]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[address1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[city1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Tennessee]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[11111]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[111-111-1111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewAccount -->
+        <test-method status="PASS" signature="logFailures(org.testng.ITestResult)[pri:0, instance:com.simplilearn.tests.TestCreateAccount@64729b1e]" name="logFailures" is-config="true" duration-ms="5" started-at="2020-02-09T20:04:11 EST" finished-at="2020-02-09T20:04:11 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateNewAccount status=SUCCESS method=TestCreateAccount.CreateNewAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.simplilearn.tests.TestCreateAccount@64729b1e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logFailures -->
+        <test-method status="PASS" signature="CreateNewAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.simplilearn.tests.TestCreateAccount@64729b1e]" name="CreateNewAccount" duration-ms="6155" started-at="2020-02-09T20:04:11 EST" data-provider="readValidAccountData" finished-at="2020-02-09T20:04:18 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emailemail110@email.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mrs]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[firstname]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lastname]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[address2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[city2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Tennessee]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[22222]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[222-222-2222]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewAccount -->
+        <test-method status="PASS" signature="logFailures(org.testng.ITestResult)[pri:0, instance:com.simplilearn.tests.TestCreateAccount@64729b1e]" name="logFailures" is-config="true" duration-ms="1" started-at="2020-02-09T20:04:18 EST" finished-at="2020-02-09T20:04:18 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateNewAccount status=SUCCESS method=TestCreateAccount.CreateNewAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.simplilearn.tests.TestCreateAccount@64729b1e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logFailures -->
+        <test-method status="PASS" signature="CreateNewAccountWithPostCodeLessThan4Chars(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.simplilearn.tests.TestCreateAccount@64729b1e]" name="CreateNewAccountWithPostCodeLessThan4Chars" duration-ms="4881" started-at="2020-02-09T20:04:18 EST" data-provider="readAccountDataInvalidZipCode" finished-at="2020-02-09T20:04:23 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email1email@email.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mrs]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[firstname]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lastname]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[address1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[city1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Tennessee]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[111]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[111-111-1111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewAccountWithPostCodeLessThan4Chars -->
+        <test-method status="PASS" signature="logFailures(org.testng.ITestResult)[pri:0, instance:com.simplilearn.tests.TestCreateAccount@64729b1e]" name="logFailures" is-config="true" duration-ms="1" started-at="2020-02-09T20:04:23 EST" finished-at="2020-02-09T20:04:23 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateNewAccountWithPostCodeLessThan4Chars status=SUCCESS method=TestCreateAccount.CreateNewAccountWithPostCodeLessThan4Chars(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.simplilearn.tests.TestCreateAccount@64729b1e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logFailures -->
+        <test-method status="PASS" signature="CreateNewAccountWithPostCodeLessThan4Chars(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.simplilearn.tests.TestCreateAccount@64729b1e]" name="CreateNewAccountWithPostCodeLessThan4Chars" duration-ms="4769" started-at="2020-02-09T20:04:23 EST" data-provider="readAccountDataInvalidZipCode" finished-at="2020-02-09T20:04:27 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email1email@email.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mrs]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[firstname]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lastname]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[address2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[city2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Tennessee]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[222]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[222-222-2222]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewAccountWithPostCodeLessThan4Chars -->
+        <test-method status="PASS" signature="logFailures(org.testng.ITestResult)[pri:0, instance:com.simplilearn.tests.TestCreateAccount@64729b1e]" name="logFailures" is-config="true" duration-ms="0" started-at="2020-02-09T20:04:27 EST" finished-at="2020-02-09T20:04:27 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateNewAccountWithPostCodeLessThan4Chars status=SUCCESS method=TestCreateAccount.CreateNewAccountWithPostCodeLessThan4Chars(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.simplilearn.tests.TestCreateAccount@64729b1e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logFailures -->
+        <test-method status="PASS" signature="CreateNewAccountWithoutCountrySpecified(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.simplilearn.tests.TestCreateAccount@64729b1e]" name="CreateNewAccountWithoutCountrySpecified" duration-ms="4655" started-at="2020-02-09T20:04:28 EST" data-provider="readAccountDataNoCountry" finished-at="2020-02-09T20:04:32 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email1email@email.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mrs]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[firstname]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lastname]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[address1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[city1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Tennessee]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[11111]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[111-111-1111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewAccountWithoutCountrySpecified -->
+        <test-method status="PASS" signature="logFailures(org.testng.ITestResult)[pri:0, instance:com.simplilearn.tests.TestCreateAccount@64729b1e]" name="logFailures" is-config="true" duration-ms="1" started-at="2020-02-09T20:04:32 EST" finished-at="2020-02-09T20:04:32 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateNewAccountWithoutCountrySpecified status=SUCCESS method=TestCreateAccount.CreateNewAccountWithoutCountrySpecified(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.simplilearn.tests.TestCreateAccount@64729b1e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logFailures -->
+        <test-method status="PASS" signature="CreateNewAccountWithoutCountrySpecified(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.simplilearn.tests.TestCreateAccount@64729b1e]" name="CreateNewAccountWithoutCountrySpecified" duration-ms="4666" started-at="2020-02-09T20:04:32 EST" data-provider="readAccountDataNoCountry" finished-at="2020-02-09T20:04:37 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email1email@email.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mrs]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[firstname]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lastname]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[address2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[city2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Tennessee]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[22222]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[222-222-2222]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewAccountWithoutCountrySpecified -->
+        <test-method status="PASS" signature="logFailures(org.testng.ITestResult)[pri:0, instance:com.simplilearn.tests.TestCreateAccount@64729b1e]" name="logFailures" is-config="true" duration-ms="1" started-at="2020-02-09T20:04:37 EST" finished-at="2020-02-09T20:04:37 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateNewAccountWithoutCountrySpecified status=SUCCESS method=TestCreateAccount.CreateNewAccountWithoutCountrySpecified(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.simplilearn.tests.TestCreateAccount@64729b1e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logFailures -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.simplilearn.tests.TestCreateAccount@64729b1e]" name="closeBrowser" is-config="true" duration-ms="607" started-at="2020-02-09T20:06:03 EST" finished-at="2020-02-09T20:06:04 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.simplilearn.tests.TestCreateAccount -->
+      <class name="com.simplilearn.tests.TestWriteReview">
+        <test-method status="PASS" signature="InitializePageObjects()[pri:0, instance:com.simplilearn.tests.TestWriteReview@1f7030a6]" name="InitializePageObjects" is-config="true" duration-ms="15" started-at="2020-02-09T20:04:03 EST" finished-at="2020-02-09T20:04:03 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializePageObjects -->
+        <test-method status="PASS" signature="WriteReviewOnOrder(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.simplilearn.tests.TestWriteReview@1f7030a6]" name="WriteReviewOnOrder" duration-ms="11653" started-at="2020-02-09T20:05:52 EST" data-provider="readReviewData" finished-at="2020-02-09T20:06:03 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yayiesm@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[HLUYRIZWZ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Faded Short Sleeve T-shirts - Color : Orange, Size : S]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[I really like this product. It is of good quality. It fits me well.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WriteReviewOnOrder -->
+        <test-method status="PASS" signature="logFailures(org.testng.ITestResult)[pri:0, instance:com.simplilearn.tests.TestWriteReview@1f7030a6]" name="logFailures" is-config="true" duration-ms="2" started-at="2020-02-09T20:06:03 EST" finished-at="2020-02-09T20:06:03 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WriteReviewOnOrder status=SUCCESS method=TestWriteReview.WriteReviewOnOrder(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.simplilearn.tests.TestWriteReview@1f7030a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logFailures -->
+      </class> <!-- com.simplilearn.tests.TestWriteReview -->
+      <class name="com.simplilearn.tests.TestLogOff">
+        <test-method status="PASS" signature="InitializePageObjects()[pri:0, instance:com.simplilearn.tests.TestLogOff@10bbd20a]" name="InitializePageObjects" is-config="true" duration-ms="7" started-at="2020-02-09T20:04:03 EST" finished-at="2020-02-09T20:04:03 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializePageObjects -->
+        <test-method status="PASS" signature="LogOff(java.lang.String, java.lang.String)[pri:0, instance:com.simplilearn.tests.TestLogOff@10bbd20a]" name="LogOff" duration-ms="4884" started-at="2020-02-09T20:04:37 EST" data-provider="readValidLoginData" finished-at="2020-02-09T20:04:42 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yayiesm@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOff -->
+        <test-method status="PASS" signature="logFailures(org.testng.ITestResult)[pri:0, instance:com.simplilearn.tests.TestLogOff@10bbd20a]" name="logFailures" is-config="true" duration-ms="0" started-at="2020-02-09T20:04:42 EST" finished-at="2020-02-09T20:04:42 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LogOff status=SUCCESS method=TestLogOff.LogOff(java.lang.String, java.lang.String)[pri:0, instance:com.simplilearn.tests.TestLogOff@10bbd20a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logFailures -->
+        <test-method status="PASS" signature="runAfterMethod()[pri:0, instance:com.simplilearn.tests.TestLogOff@10bbd20a]" name="runAfterMethod" is-config="true" duration-ms="399" started-at="2020-02-09T20:04:42 EST" finished-at="2020-02-09T20:04:42 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runAfterMethod -->
+      </class> <!-- com.simplilearn.tests.TestLogOff -->
+      <class name="com.simplilearn.tests.TestShareProduct">
+        <test-method status="PASS" signature="InitializePageObjects()[pri:0, instance:com.simplilearn.tests.TestShareProduct@184f6be2]" name="InitializePageObjects" is-config="true" duration-ms="7" started-at="2020-02-09T20:04:03 EST" finished-at="2020-02-09T20:04:03 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializePageObjects -->
+        <test-method status="PASS" signature="ShareProductToFacebook(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.simplilearn.tests.TestShareProduct@184f6be2]" name="ShareProductToFacebook" duration-ms="10608" started-at="2020-02-09T20:05:12 EST" data-provider="readShareProductData" finished-at="2020-02-09T20:05:23 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Women]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Blouse]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yayiesm@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShareProductToFacebook -->
+        <test-method status="PASS" signature="logFailures(org.testng.ITestResult)[pri:0, instance:com.simplilearn.tests.TestShareProduct@184f6be2]" name="logFailures" is-config="true" duration-ms="1" started-at="2020-02-09T20:05:23 EST" finished-at="2020-02-09T20:05:23 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ShareProductToFacebook status=SUCCESS method=TestShareProduct.ShareProductToFacebook(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.simplilearn.tests.TestShareProduct@184f6be2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logFailures -->
+        <test-method status="PASS" signature="ShareProductToGooglePlus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.simplilearn.tests.TestShareProduct@184f6be2]" name="ShareProductToGooglePlus" duration-ms="8816" started-at="2020-02-09T20:05:23 EST" data-provider="readShareProductData" finished-at="2020-02-09T20:05:32 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Women]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Blouse]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yayiesm@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShareProductToGooglePlus -->
+        <test-method status="PASS" signature="logFailures(org.testng.ITestResult)[pri:0, instance:com.simplilearn.tests.TestShareProduct@184f6be2]" name="logFailures" is-config="true" duration-ms="0" started-at="2020-02-09T20:05:32 EST" finished-at="2020-02-09T20:05:32 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ShareProductToGooglePlus status=SUCCESS method=TestShareProduct.ShareProductToGooglePlus(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.simplilearn.tests.TestShareProduct@184f6be2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logFailures -->
+        <test-method status="PASS" signature="ShareProductToPinterest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.simplilearn.tests.TestShareProduct@184f6be2]" name="ShareProductToPinterest" duration-ms="11842" started-at="2020-02-09T20:05:32 EST" data-provider="readShareProductData" finished-at="2020-02-09T20:05:44 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Women]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Blouse]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yayiesm@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShareProductToPinterest -->
+        <test-method status="PASS" signature="logFailures(org.testng.ITestResult)[pri:0, instance:com.simplilearn.tests.TestShareProduct@184f6be2]" name="logFailures" is-config="true" duration-ms="1" started-at="2020-02-09T20:05:44 EST" finished-at="2020-02-09T20:05:44 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ShareProductToPinterest status=SUCCESS method=TestShareProduct.ShareProductToPinterest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.simplilearn.tests.TestShareProduct@184f6be2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logFailures -->
+      </class> <!-- com.simplilearn.tests.TestShareProduct -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,10 @@
+com\simplilearn\pages\ShoppingCartPage.class
+com\simplilearn\pages\CreateAccountPage.class
+com\simplilearn\common\EnumsTitle.class
+com\simplilearn\pages\AccountPage.class
+com\simplilearn\common\BrowserCommands.class
+com\simplilearn\pages\MainPage.class
+com\simplilearn\pages\SignInPage.class
+com\simplilearn\common\OtherCommon.class
+com\simplilearn\common\ReadFileCommands.class
+com\simplilearn\common\EnumsShareType.class
