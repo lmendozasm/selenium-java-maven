@@ -15,14 +15,14 @@ import org.testng.annotations.Parameters;
 public class BaseTest {
 	static WebDriver webDriver;
 	
-	@BeforeSuite
-	public void startUpBrowser() {
-		String browserCmd = "webdriver.chrome.driver";
-		String browserCmdFile = "./drivers/chromedriver.exe";
-	
-	//@Parameters({"browserCmd","browserCmdFile"})
 	//@BeforeSuite
-	//public void startUpBrowser(String browserCmd, String browserCmdFile) {
+	//public void startUpBrowser() {
+	//	String browserCmd = "webdriver.chrome.driver";
+	//	String browserCmdFile = "./drivers/chromedriver.exe";
+	
+	@Parameters({"browserCmd","browserCmdFile"})
+	@BeforeSuite
+	public void startUpBrowser(String browserCmd, String browserCmdFile) {
 
 		webDriver = getDriver(browserCmd, browserCmdFile);
 		webDriver.manage().timeouts().implicitlyWait(1000, TimeUnit.SECONDS);

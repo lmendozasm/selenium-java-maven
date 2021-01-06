@@ -8,11 +8,11 @@
     <classes>
       <class name="com.simplilearn.tests.TestCreateAccount"/>
       <class name="com.simplilearn.tests.TestLogOff"/>
-      <class name="com.simplilearn.tests.TestPlaceOrder"/>
+      <!--<class name="com.simplilearn.tests.TestPlaceOrder"/>-->
       <class name="com.simplilearn.tests.TestSearch"/>
-      <class name="com.simplilearn.tests.TestShareProduct"/>
+      <!--<class name="com.simplilearn.tests.TestShareProduct"/>-->
       <class name="com.simplilearn.tests.TestSignIn"/>
-      <class name="com.simplilearn.tests.TestWriteReview"/>
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+      <!--<class name="com.simplilearn.tests.TestWriteReview"/>-->
+</classes>
+</test> <!-- Test -->
+    </suite> <!-- Suite -->

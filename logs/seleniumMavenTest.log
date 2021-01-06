@@ -1,16 +1,21 @@
-2020-02-09 20:04:11,976  INFO [main] TestCreateAccount:97 - CreateNewAccount test passed. 
-2020-02-09 20:04:18,136  INFO [main] TestCreateAccount:97 - CreateNewAccount test passed. 
-2020-02-09 20:04:23,149  INFO [main] TestCreateAccount:97 - CreateNewAccountWithPostCodeLessThan4Chars test passed. 
-2020-02-09 20:04:27,920  INFO [main] TestCreateAccount:97 - CreateNewAccountWithPostCodeLessThan4Chars test passed. 
-2020-02-09 20:04:32,724  INFO [main] TestCreateAccount:97 - CreateNewAccountWithoutCountrySpecified test passed. 
-2020-02-09 20:04:37,391  INFO [main] TestCreateAccount:97 - CreateNewAccountWithoutCountrySpecified test passed. 
-2020-02-09 20:04:42,397  INFO [main] TestCreateAccount:61 - LogOff test passed. 
-2020-02-09 20:05:08,894  INFO [main] TestCreateAccount:101 - Purchase3Products test passed. 
-2020-02-09 20:05:10,547  INFO [main] TestCreateAccount:69 - SearchByManufacturer test passed. 
-2020-02-09 20:05:12,081  INFO [main] TestCreateAccount:69 - SearchBySearchBox test passed. 
-2020-02-09 20:05:23,261  INFO [main] TestCreateAccount:103 - ShareProductToFacebook test passed. 
-2020-02-09 20:05:32,139  INFO [main] TestCreateAccount:103 - ShareProductToGooglePlus test passed. 
-2020-02-09 20:05:44,046  INFO [main] TestCreateAccount:103 - ShareProductToPinterest test passed. 
-2020-02-09 20:05:47,324  INFO [main] TestCreateAccount:80 - SignInWithInvalidCredentials test passed. 
-2020-02-09 20:05:52,061  INFO [main] TestCreateAccount:80 - SignInWithValidCredentials test passed. 
-2020-02-09 20:06:03,761  INFO [main] TestCreateAccount:72 - WriteReviewOnOrder test passed. 
+2021-01-05 23:58:28,684  INFO [main] TestCreateAccount:97 - CreateNewAccount test passed. 
+2021-01-05 23:58:36,778  INFO [main] TestCreateAccount:97 - CreateNewAccount test passed. 
+2021-01-05 23:58:42,376  INFO [main] TestCreateAccount:97 - CreateNewAccountWithPostCodeLessThan4Chars test passed. 
+2021-01-05 23:58:47,574  INFO [main] TestCreateAccount:97 - CreateNewAccountWithPostCodeLessThan4Chars test passed. 
+2021-01-05 23:58:52,639  INFO [main] TestCreateAccount:97 - CreateNewAccountWithoutCountrySpecified test passed. 
+2021-01-05 23:58:58,316  INFO [main] TestCreateAccount:97 - CreateNewAccountWithoutCountrySpecified test passed. 
+2021-01-05 23:59:03,479  INFO [main] TestCreateAccount:61 - LogOff test passed. 
+2021-01-05 23:59:05,879  INFO [main] TestCreateAccount:69 - SearchByManufacturer test passed. 
+2021-01-05 23:59:07,836  INFO [main] TestCreateAccount:69 - SearchBySearchBox test passed. 
+2021-01-05 23:59:15,362  INFO [main] TestCreateAccount:80 - SignInWithInvalidCredentials test passed. 
+2021-01-05 23:59:21,366  INFO [main] TestCreateAccount:80 - SignInWithValidCredentials test passed. 
+2021-01-05 23:59:35,359  INFO [main] TestCreateAccount:67 - WriteReviewOnOrder
+2021-01-05 23:59:35,359  INFO [main] TestCreateAccount:68 - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KNOX', ip: '192.168.0.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\FERDIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64062}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: de699b2fd87ef25f246b1592f1af0704
+*** Element info: {Using=name, value=id_product}
