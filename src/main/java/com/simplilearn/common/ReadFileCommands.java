@@ -1,9 +1,6 @@
 package com.simplilearn.common;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 import java.util.Properties;
 
 import org.apache.poi.ss.usermodel.Cell;
@@ -35,6 +32,7 @@ public class ReadFileCommands {
 	public static Object[][] readTestDataFromExcel(String sheetName) {
 		String path = "./testdata/";
 		String fileName = "data.xlsx";
+		String emailKeyNumber = "emailKeyNumber.txt";
 		Object[][] dataSet;
 		
 		switch (sheetName) {
@@ -64,14 +62,33 @@ public class ReadFileCommands {
 		try {
 			FileInputStream inputStream = new FileInputStream(path + fileName);
 			XSSFWorkbook workBook = new XSSFWorkbook(inputStream);
-			Sheet newAccountValidSheet = workBook.getSheet(sheetName);	
-			int rows = newAccountValidSheet.getLastRowNum();		
+			Sheet excelSheet = workBook.getSheet(sheetName);
+			int rows = excelSheet.getLastRowNum();
 
 			for (int row=1; row <=rows; row++) {
-				Row rowData = newAccountValidSheet.getRow(row);
+				Row rowData = excelSheet.getRow(row);
 				for (int col=0; col < rowData.getLastCellNum(); col++) {
 					Cell cellData = rowData.getCell(col);
-					dataSet[row-1][col] = cellData.getStringCellValue();
+					if (sheetName.equals("newaccountvalid") && (col==0)) {
+						BufferedReader fileReader = new BufferedReader(new FileReader(path + emailKeyNumber));
+						String emailNum = fileReader.readLine();
+						fileReader.close();
+
+						FileWriter fileWriter = new FileWriter(path + emailKeyNumber);
+						fileWriter.write(String.valueOf(Integer.parseInt(emailNum) + 1));
+						fileWriter.close();
+
+						String emailValue = cellData.getStringCellValue();
+						int atSignPos = emailValue.toString().indexOf("@");
+						dataSet[row - 1][col] = emailValue.toString().substring(0, atSignPos);
+						dataSet[row - 1][col] = dataSet[row - 1][col] +
+								emailNum.toString() +
+								emailValue.toString().substring(atSignPos, emailValue.toString().length());
+
+					}
+					else{
+						dataSet[row - 1][col] = cellData.getStringCellValue();
+					}
 				}
 			}
 		}		
