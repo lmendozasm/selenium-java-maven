@@ -5,23 +5,48 @@
   <parameter name="browserCmdFile" value="./drivers/chromedriver.exe"/>
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="com.simplilearn.tests.TestCreateAccount">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="CreateNewAccount" invocation-numbers="0"/>
+          <include name="CreateNewAccountWithoutCountrySpecified"/>
+          <include name="startUpBrowser"/>
+          <include name="InitializePageObjects"/>
+          <include name="CreateNewAccountWithPostCodeLessThan4Chars"/>
+          <include name="logFailures"/>
+        </methods>
+      </class> <!-- com.simplilearn.tests.TestCreateAccount -->
+      <class name="com.simplilearn.tests.TestLogOff">
+        <methods>
+          <include name="LogOff" invocation-numbers="0"/>
+          <include name="closeBrowser"/>
+          <include name="startUpBrowser"/>
+          <include name="logFailures"/>
+          <include name="runAfterMethod"/>
+          <include name="InitializePageObjects"/>
+        </methods>
+      </class> <!-- com.simplilearn.tests.TestLogOff -->
+      <class name="com.simplilearn.tests.TestSignIn">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="SignInWithValidCredentials"/>
+          <include name="startUpBrowser"/>
+          <include name="SignInWithInvalidCredentials" invocation-numbers="0"/>
+          <include name="logFailures"/>
+          <include name="InitializePageObjects"/>
+        </methods>
+      </class> <!-- com.simplilearn.tests.TestSignIn -->
       <class name="com.simplilearn.tests.TestSearch">
         <methods>
           <include name="closeBrowser"/>
           <include name="startUpBrowser"/>
+          <include name="runAfterMethod"/>
           <include name="InitializePageObjects"/>
-          <include name="SearchBySearchBox" invocation-numbers="0"/>
-          <include name="SearchByManufacturer"/>
+          <include name="SearchBySearchBox"/>
+          <include name="logFailures"/>
+          <include name="SearchByManufacturer" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.simplilearn.tests.TestSearch -->
-      <class name="com.simplilearn.tests.TestPlaceOrder">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="Purchase3Products"/>
-          <include name="startUpBrowser"/>
-          <include name="InitializePageObjects"/>
-        </methods>
-      </class> <!-- com.simplilearn.tests.TestPlaceOrder -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
